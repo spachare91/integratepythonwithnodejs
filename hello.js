@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   var dataToSend;
 
   // spawn new child process to call the python script
-  const python = spawn("python", ["sample.py","sagar","pachare"]);
+  const python = spawn("python", ["sha256.py","sagar pachare"]);
 
 
   // get output from python script....
